@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/girisButton"
+        android:layout_width="175dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="115dp"
+        android:onClick="kulGiris"
+        android:text="Kullanıcı Girişi"
+        app:layout_constraintBottom_toTopOf="@+id/yetkiliText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifreYetText" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="245dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/emailYetText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/emailYetText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="email@example"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/sifreYetText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/sifreYetText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:hint="sifre"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/girisButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailYetText" />
+
+    <TextView
+        android:id="@+id/yetkiliText"
+        android:layout_width="223dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical"
+        android:onClick="yetGiris"
+        android:text="Yetkili Girişi Yap"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/girisButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

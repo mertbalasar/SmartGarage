@@ -1,0 +1,11 @@
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\bin\Debug\Smart Garage Configurator.exe.config
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\bin\Debug\Smart Garage Configurator.exe
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\bin\Debug\Smart Garage Configurator.pdb
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\obj\Debug\Smart Garage Configurator.csprojAssemblyReference.cache
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\obj\Debug\Smart_Garage_Configurator.Form1.resources
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\obj\Debug\Smart_Garage_Configurator.Properties.Resources.resources
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\obj\Debug\Smart Garage Configurator.csproj.GenerateResource.cache
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\obj\Debug\Smart Garage Configurator.exe
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\obj\Debug\Smart Garage Configurator.pdb
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\bin\Debug\SimpleWifi.dll
+C:\Users\mobil\source\repos\Smart Garage Configurator\Smart Garage Configurator\obj\Debug\Smart Garage Configurator.csproj.CopyComplete

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/yet_sayfa_tum_kullaniciler" android:title="Tüm Kullanıcılar"></item>
+    <item android:id="@+id/yet_sayfa_kullanici_kaydet" android:title="Kullanıcı Kaydet"></item>
+    <item android:id="@+id/yet_sayfa_cikis" android:title="Çıkış"></item>
+
+
+</menu>

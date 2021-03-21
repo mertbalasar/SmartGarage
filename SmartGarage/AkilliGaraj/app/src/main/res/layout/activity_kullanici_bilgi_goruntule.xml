@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullaniciBilgiGoruntule">
+
+    <TextView
+        android:id="@+id/kulBilGorEmail"
+        android:layout_width="290dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Email : "
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/kulBilGorYer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kulBilGorAd" />
+
+    <TextView
+        android:id="@+id/kulBilGorAd"
+        android:layout_width="290dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Adı Soyadı :"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/kulBilGorEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kulBilGorImage" />
+
+    <ImageView
+        android:id="@+id/kulBilGorImage"
+        android:layout_width="266dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="51dp"
+        app:layout_constraintBottom_toTopOf="@+id/kulBilGorAd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/kulBilGorYer"
+        android:layout_width="290dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="173dp"
+        android:gravity="center"
+        android:text="Park Yeri :"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kulBilGorEmail" />
+</androidx.constraintlayout.widget.ConstraintLayout>

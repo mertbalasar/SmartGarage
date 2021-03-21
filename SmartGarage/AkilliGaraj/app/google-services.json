@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "512561304535",
+    "firebase_url": "https://smartgarage-275bb.firebaseio.com",
+    "project_id": "smartgarage-275bb",
+    "storage_bucket": "smartgarage-275bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512561304535:android:b45a56bd53b2b07806f192",
+        "android_client_info": {
+          "package_name": "com.ayhanunal.akilligaraj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512561304535-u9uvm5rqcqlulqr8nj3m6f7jbopf0tuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC9W1B3xsaEEjajYVWrUCWLz5tbcNRmrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512561304535-u9uvm5rqcqlulqr8nj3m6f7jbopf0tuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

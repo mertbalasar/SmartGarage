@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullaniciSayfa">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="188dp"
+        android:onClick="lambaDegis"
+        android:text="Lambayı Aç/Kapat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/lambaDurumText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="19dp"
+        android:gravity="center_vertical"
+        android:text=": Kapalı"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/kapiDurumText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lambaBilgi"
+        app:layout_constraintTop_toBottomOf="@+id/kullaniciText" />
+
+    <TextView
+        android:id="@+id/kapiBilgi"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_vertical"
+        android:text="Kapı Durumu"
+        android:textAlignment="inherit"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/kapiDurumText"
+        app:layout_constraintEnd_toStartOf="@+id/kapiDurumText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/lambaBilgi"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_vertical"
+        android:text="Lamba Durumu"
+        android:textAlignment="inherit"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/lambaDurumText"
+        app:layout_constraintEnd_toStartOf="@+id/lambaDurumText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/kapiDurumText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="52dp"
+        android:gravity="center_vertical"
+        android:text=": Kapalı"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kapiBilgi"
+        app:layout_constraintTop_toBottomOf="@+id/lambaDurumText" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="23dp"
+        android:onClick="kapiDegis"
+        android:text="Kapıyı Aç/Kapat"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kapiDurumText" />
+
+    <TextView
+        android:id="@+id/kullaniciText"
+        android:layout_width="197dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="89dp"
+        android:text="email"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/lambaDurumText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
